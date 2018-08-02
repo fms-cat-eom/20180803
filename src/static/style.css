@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Wt-Position';
+  src: url( fonts/Wt-Position.ttf );
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url( fonts/Exo-Regular.ttf );
+}
+
+body {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  
+  overflow: hidden;
+
+  font: 500 10px/1.2 Wt-Position;
+
+  background: #000;
+  color: #888;
+}
+
+canvas {
+  position: absolute;
+}
+
+#divUI {
+  text-align: right;
+  position: absolute;
+  right: 0px;
+  bottom: 240px;
+}
+
+#divCountdown {
+  font-size: 20px;
+}
+
+#divAutomaton {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 240px;
+}
